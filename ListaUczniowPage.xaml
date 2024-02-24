@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DziennikElektroniczny.ListaUczniowPage">
+    <Shell.TitleView>
+        <Grid>
+            <Label x:Name="Headbar"/>
+        </Grid>
+    </Shell.TitleView>
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/Resources/ListaUczniowPageStyle.css" />
+    </ContentPage.Resources>
+
+    <StackLayout StyleClass="page-background">
+        <ScrollView>
+            <StackLayout x:Name="UczniowieLayout"/>
+        </ScrollView>
+        
+        <Button Text="Wyczyść obecność" Clicked="WyczyscObecnoscClicked" StyleClass="button"/>
+        <Button Text="Losuj do odpowiedzi" Clicked="LosujDoOdpowiedziClicked" StyleClass="button"/>
+    </StackLayout>
+</ContentPage>

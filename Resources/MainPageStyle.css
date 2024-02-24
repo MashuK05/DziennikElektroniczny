@@ -1,0 +1,40 @@
+﻿/* MainPageStyle.css */
+
+/* Styl dla przycisków */
+.button {
+    background-color: #2c3e50; /* kolor tła */
+    color: #ffffff; /* kolor tekstu */
+    padding: 10 20; /* margines wewnętrzny */
+    border-radius: 15; /* zaokrąglenie rogów */
+    margin: 5; /* margines zewnętrzny */
+    width: 300;
+}
+.page-background {
+    background-color: #34495e; /* granatowy kolor tła */
+}
+contentView {
+    background-color: #FFFDD0; /* kolor tła */
+    color: #808080; /* kolor tekstu */
+    padding: 10 20; /* margines wewnętrzny */
+    margin: 5; /* margines zewnętrzny */
+    width: 350; /* szerokość */
+    height: 65; /* wysokość */
+    display: flex;
+    justify-content: space-between;
+}
+.DelButton {
+    /*margin-left: auto;*/
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+/* MainPageStyle.css */
+#Headbar {
+    background-color: #2c3e50;
+    color: #FFFDD0;
+    text-align: center;
+    font-size: 35;
+}
+.KlasaLabel {
+    width: 250;
+    font-size: 25;
+}
