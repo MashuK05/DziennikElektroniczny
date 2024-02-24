@@ -1,1 +1,1 @@
-# DziennikElektroniczny
+Plik DziennikElektroniczny.sln musi zostać przeniesiony jeden folder wyżej niż reszta plików by projket załadował sie poprawnie. Podczas zapisania projektu proszę utworzyć folder na pulpicie i w nim zapisać cały projekt. Powinien wówczas powstać folder DziennikElektroniczny z którego trzeba wyjać plik sln do folderu nadrzędnego.
